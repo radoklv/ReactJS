@@ -1,0 +1,32 @@
+.container {
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.349);
+  border-radius: 20px;
+}
+
+.app {
+  margin: 5rem 0;
+}
+
+.app_header {
+  text-align: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.app_header h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.tableInfo {
+  text-align: center;
+  margin: 0 auto;
+}

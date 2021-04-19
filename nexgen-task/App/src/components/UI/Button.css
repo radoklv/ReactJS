@@ -1,0 +1,48 @@
+button {
+  width: 100%;
+  margin: 15px;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-size: inherit;
+  background-color: #207590;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Maven Pro', sans-serif;
+  position: relative;
+  transition: all 0.1s ease-out;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #103770;
+}
+
+button:before,
+button:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 20px;
+  height: 150px;
+  background-color: #207590;
+  transform: translateY(-40%) rotate(45deg);
+  z-index: 20;
+  transition: all 0.2s ease-out;
+}
+
+button:before {
+  left: -4%;
+}
+
+button:after {
+  right: -10%;
+}
+
+button:hover:before {
+  left: 10%;
+}
+
+button:hover:after {
+  right: 8%;
+}

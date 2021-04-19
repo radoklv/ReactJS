@@ -1,0 +1,97 @@
+.form_controls {
+  padding: 30px 15px 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  text-align: left;
+  background-color: #2d94b952;
+  border-radius: 10px;
+  position: relative;
+}
+
+.form_controls label {
+  transform: translateY(-50%);
+  font-weight: bold;
+  margin-bottom: -0.5rem;
+  display: block;
+  background-color: #207590;
+  padding: 0 15px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.form_controls > label {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+}
+
+.form_controls input,
+.form_controls select,
+.form_controls textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  width: 100%;
+}
+
+.form_controls input:focus,
+.form_controls textarea:focus,
+.form_controls select:focus {
+  outline: none;
+}
+
+.form_controls .counter {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  font-size: 10px;
+  background-color: #2d94b9d2;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 4px 0 7px 0;
+}
+
+.form_controls ::placeholder {
+  color: rgb(211, 211, 211);
+}
+
+.check-controls {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.check-controls label {
+  background-color: #2796b8;
+}
+
+.check-controls li {
+  margin-bottom: 0.8rem;
+}
+
+.error p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0.1rem 0.2rem;
+  border-radius: 5px;
+  background-color: #ffffff7e;
+  color: rgb(250, 51, 51);
+  font-style: italic;
+}
+
+.error > label {
+  color: #ff3939;
+}
+
+.error > input,
+.error > textarea,
+.error > select {
+  background-color: rgb(251, 224, 224);
+}
